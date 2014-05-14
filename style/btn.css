@@ -1,0 +1,28 @@
+/* CSS Document */
+/* global */
+.button {
+	cursor:hand;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffffff,endColorStr=#ffBCDAF4,GradientType=0);
+	background-color:#fafafa;
+	height:22px;
+	BORDER: #B1B9CA 1px solid; 
+	PADDING-LEFT: 0px; 
+	PADDING-RIGHT: 0px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px; 
+	COLOR: #052961;
+	line-height:15px;
+}
+.button_over {
+	cursor:hand;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffBCDAF4,endColorStr=#ffffffff,GradientType=0);
+	background-color:#fafafa;
+	height:22px;
+	BORDER: #B1B9CA 1px solid; 
+	PADDING-LEFT: 0px; 
+	PADDING-RIGHT: 0px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px; 
+	COLOR: #052961;
+	line-height:15px;
+}

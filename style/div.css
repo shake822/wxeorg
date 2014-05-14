@@ -1,0 +1,27 @@
+html,body{ height:100%; padding:0; margin:0; font:normal 12px/22px Arial, Helvetica, sans-serif;}
+.row{ margin:5px 0;}
+input.input,textarea{ padding:5px; border:solid 1px #bbb; width:70%;font:normal 12px/150% Arial, Helvetica, sans-serif;}
+textarea{ height:80px;}
+b.label{ width:18%; float:left; display:inline-block;margin:6px 15px 0;}
+.Boxheader,.Boxfooter,.Boxbody{ position:relative;}
+
+.headerR,.FooterR,.BodyR{ float:left;width:20px; }
+.headerL,.FooterL,.BodyL{ float:left;}
+
+.headerR{background:url(../images/nav_l.gif) no-repeat right 0; height:46px;}
+.headerL{background:url(../images/nav_l.gif) no-repeat left 0; height:46px;padding:0 0 0 20px;}
+
+.FooterR{background:url(../images/lightbox-footer.png) no-repeat right 0;height:59px;}
+.FooterL{background:url(../images/lightbox-footer.png) no-repeat left 0;height:39px;padding:10px 0 10px 20px;}
+
+
+
+.BodyL{background:url(../images/lightbox-body.png) repeat-y left 0;padding:10px 0 10px 20px;}
+.BodyR{background:url(../images/lightbox-body.png) repeat-y right 0;}
+
+.BoxMask{ height:100%; width:100%;left:0; top:0; background:#000;opacity:0.25;filter:alpha(opacity=25);}
+
+.Boxfooter{height:59px; }
+.Boxbody{overflow:hidden;}
+.Boxheader{ height:46px;cursor:move; }
+.Boxfooter .btn{ display:inline-block; float:right; margin:10px 10px 0 0;}
